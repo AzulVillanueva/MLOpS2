@@ -1,0 +1,13 @@
+pandas
+numpy
+joblib
+scikit-learn
+imbalanced-learn
+fastapi
+uvicorn[standard]
+pydantic
+requests
+httpx
+strawberry-graphql
+grpcio
+grpcio-tools
