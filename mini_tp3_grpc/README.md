@@ -2,6 +2,10 @@
 
 Expone el mismo modelo por gRPC: contrato tipado (`scoring.proto`), unary y server-streaming.
 
+## Entregable
+
+**[`mini_tp3_actividad.ipynb`](mini_tp3_actividad.ipynb)** es el notebook a entregar: escribe el `.proto`, genera los stubs, levanta el servidor gRPC y el REST de la Sesión 1 en hilos, prueba unary y streaming, y corre la comparación de latencia — todo de punta a punta sin depender de procesos externos. `server.py`, `client.py` y `compare_latency.py` son la misma lógica en scripts independientes.
+
 ## Cómo correr
 
 Generar los stubs (ya generados en este repo; regenerar solo si se edita el `.proto`):

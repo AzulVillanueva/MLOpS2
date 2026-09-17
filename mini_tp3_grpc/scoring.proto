@@ -1,8 +1,7 @@
+
 syntax = "proto3";
 package scoring;
 
-// Contrato tipado para el modelo de prediccion de stroke (mismas features que
-// el Mini-TP 1 REST y el Mini-TP 2 GraphQL).
 message StrokeFeatures {
   string gender = 1;
   double age = 2;
@@ -29,8 +28,6 @@ message Prediction {
 }
 
 service Scoring {
-  // Unary: predice un paciente.
   rpc Predict(StrokeFeatures) returns (Prediction);
-  // Server-streaming: predice un lote y devuelve una prediccion por paciente.
   rpc PredictBatch(StrokeBatch) returns (stream Prediction);
 }

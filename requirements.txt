@@ -11,3 +11,6 @@ httpx
 strawberry-graphql
 grpcio
 grpcio-tools
+nbformat
+nbclient
+ipykernel

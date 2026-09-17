@@ -2,6 +2,10 @@
 
 Expone los metadatos del mismo modelo del Mini-TP 1 con un esquema GraphQL (Strawberry).
 
+## Entregable
+
+**[`mini_tp2_actividad.ipynb`](mini_tp2_actividad.ipynb)** es el notebook a entregar: corre de punta a punta (levanta GraphQL y REST en hilos, ejecuta la query y la comparación) sin depender de servicios externos ya corriendo. `server.py`, `client.py` y `compare_rest_vs_graphql.py` son la misma lógica separada en scripts, útiles para levantar el servicio de forma independiente.
+
 ## Cómo correr
 
 Con el Mini-TP 1 corriendo en el puerto 8001 (para la comparación), levantar este servicio en otro puerto:
