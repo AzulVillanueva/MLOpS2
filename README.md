@@ -2,7 +2,7 @@
 
 Entregas individuales de los mini-TP de **Operaciones de Aprendizaje Automático II** (CEIA, FIUBA), sesiones 1 a 3.
 
-El modelo usado es el de predicción de stroke del TP final de **Aprendizaje de Máquina II** (llamado "MLOPS I" en el programa de esta materia): [`aprendizaje_maquina_II/`](../aprendizaje_maquina_II). En vez de depender del stack completo (Airflow + MLflow + MinIO + Postgres en Docker) para cada entrega semanal, `common/` reentrena localmente el mismo modelo (mismo dataset, mismo preprocesamiento — one-hot + SMOTE + escalado — y mismo `RandomForestClassifier`) y guarda los artefactos que consumen los tres mini-TP. Así cada sesión agrega solo la capa de protocolo (REST → GraphQL → gRPC) sobre el mismo modelo, como pide el enunciado.
+El modelo usado es el de predicción de stroke del TP final de **Aprendizaje de Máquina II** (llamado "MLOPS I" en el programa de esta materia): [`aprendizaje_maquina_II/`](https://github.com/christophcharaf/aprendizaje_maquina_II). En vez de depender del stack completo (Airflow + MLflow + MinIO + Postgres en Docker) para cada entrega semanal, `common/` reentrena localmente el mismo modelo (mismo dataset, mismo preprocesamiento — one-hot + SMOTE + escalado — y mismo `RandomForestClassifier`) y guarda los artefactos que consumen los tres mini-TP. Así cada sesión agrega solo la capa de protocolo (REST → GraphQL → gRPC) sobre el mismo modelo, como pide el enunciado.
 
 ## Estructura
 
