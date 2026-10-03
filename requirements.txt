@@ -14,3 +14,7 @@ grpcio-tools
 nbformat
 nbclient
 ipykernel
+matplotlib
+boto3
+mlflow
+pyarrow
